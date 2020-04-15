@@ -1,0 +1,20 @@
+
+.Posts{
+    display:flex;
+}
+.post-section{
+    border: 1px solid #C5CFD6;
+}
+.post-section:hover{
+    box-shadow: 5px 10px 18px #C5CFD6;
+}
+.card-body{
+    padding: 10px;
+}
+
+@media(max-width:700px){
+    .Posts {
+        display: block;
+    }
+
+}

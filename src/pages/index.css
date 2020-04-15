@@ -1,0 +1,125 @@
+
+.section-top h1{
+ font-size: 50px;
+    color: white;
+ padding-top: 100px;
+   text-align: center;
+}
+.section-top p {
+    font-size: 20px;
+    color: white;
+
+   text-align: center;
+}
+
+.section-top ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+.section-top ul li{
+    padding: 0px 20px;
+}
+
+.section-top{
+    height: 500px;
+/* background-color: #C5CFD6; */
+    background: url(https://images.pexels.com/photos/1713953/pexels-photo-1713953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center/cover;
+  border-radius: 10px;
+    /* padding: 50px; */
+    margin-bottom: 100px;
+}
+
+.section-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px;
+    text-align: center;
+    
+    
+}
+.section-grid div {
+    background: url(https://images.pexels.com/photos/1713953/pexels-photo-1713953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center/cover;
+	/* background: #C6D7DE; */
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.section-two {
+    margin: 100px 0px 30px 0px;
+}
+
+.section-two h2 {
+    padding: 30px;
+    color: #333;
+}
+.content {
+
+	display:flex;
+	/* grid-template-columns: repeat(3, 1fr);
+	grid-gap: 30px; */
+    text-align: center;
+    /* justify-content: space-around; */
+  
+}
+.section-grid img {
+    width: 300px
+}
+.section-grid h2 a{
+    color: white;
+    text-decoration: none;
+}
+.section-grid p {
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.section-bio{
+   
+text-align: center;
+border-radius: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+background: #C6D7DE; 
+
+}
+
+
+@media(max-width:700px){
+    .section-grid{
+        display: block;
+        margin-top: 0;
+    }
+.section-one{
+    display: block;
+    padding: 20px;
+}
+.section-one img {
+    width:200px
+
+}
+.section-one h1 {
+    font-size: 15px;
+  padding: 0;
+  text-align: center;
+  
+}
+
+.content img{
+    width:200px
+}
+.content {
+    display: block;
+    margin-top: 0;
+}
+
+.section-two {
+    margin: 0px;
+}
+}
+
+
+
