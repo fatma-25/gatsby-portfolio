@@ -7,24 +7,26 @@ const Contact =()=>{
 <form className="form" name="contact" method="POST" data-netlify="true"
 data-netlify-honeypot="bot-field"
 >
-  <div>
-  <label>Name</label>
-  <input type="name" placeholder="your name" name="name" class="form-control" required/>
+<div>
+  <label>Name:</label>
+  <br/>
+  <input type="name" placeholder="your name" name="name" className="input" />
   </div>
   <div>
-  <label>Email</label>
-  <input type="email" placeholder="your email" name="email" class="form-control" required/>
+  <label>Email:</label>
+  <br/>
+  <input type="email" placeholder="your email" name="email" className="input" />
   </div>
+  <div>
+  <label>Message:</label>
+  <br/>
+  <input type="message" name="message" className="message" />
+  </div>
+
   <div data-netlify-recaptcha="true">
 
-  </div>
-  <div>
-  <label>Message</label>
-  <textarea type="message" class="form-control" placeholder="your message" name="message" required></textarea>
-  </div>
-
- 
-  <button type="submit" class="btn btn-primary" style={{margin:"10px"}}>Send</button>
+</div>
+  <button type="submit"  className="button">Send</button>
 </form>
         </Layout>
     )
