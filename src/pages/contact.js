@@ -15,6 +15,9 @@ data-netlify-honeypot="bot-field"
   <label>Email</label>
   <input type="email" placeholder="your email" name="email" class="form-control" required/>
   </div>
+  <div data-netlify-recaptcha="true">
+
+  </div>
   <div>
   <label>Message</label>
   <textarea type="message" class="form-control" placeholder="your message" name="message" required></textarea>
